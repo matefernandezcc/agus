@@ -743,22 +743,8 @@ function iHeartYou(){
 	if(window.location.hash){
 		vtext.textContent = encryptString(decodeURIComponent(window.location.hash).substring(1));
 	}else{
-		vtext.textContent = "Yo te amo más igual <3";
+		vtext.textContent = "Yo te amo más <3";
 	}
-
-	setTimeout(function(){
-		vtext.style.letterSpacing = "3px";
-	},10);
-
-	// After 9 seconds, swipe down to CREDITS.
-	// No replay. Fuck it.
-	setTimeout(function(){
-		document.getElementById("whole_container").style.top = "-200%";
-	},7300);
-	setTimeout(function(){
-		yourMessage.focus();
-	},8500);
-
 }
 
 var rewindFrame = 0;
