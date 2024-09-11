@@ -772,10 +772,8 @@ function reset(){
 }
 
 ///////////////////////////////////////////////////////////////////
-
 // Simple XOR encryption (key = 1)
 // The only purpose is to obscure it in the hash
-
 function encryptString(string){
 	var result = "";
 	for(var i=0;i<string.length;i++){
@@ -788,8 +786,6 @@ function decryptString(string){
 }
 
 ///////////////////////////////////////////////////////////////////
-
-
 var introCanvas = document.getElementById("canvas_intro");
 introCanvas.width = window.innerWidth;
 introCanvas.height = window.innerHeight;
