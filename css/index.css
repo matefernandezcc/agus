@@ -20,7 +20,7 @@ canvas{
 	-ms-transition: top 1s ease-in-out;
 	transition: top 1s ease-in-out;
 }
-#screen_one, #screen_two, #screen_three{
+#screen_one, #screen_two{
 	width:100%; height:100%;
 	position: relative;
 }
@@ -32,10 +32,6 @@ canvas{
 }
 #screen_two{
 	background:#333;
-}
-#screen_three{
-	background:#333;
-
 }
 #canvas_container{
 	width:940px;
