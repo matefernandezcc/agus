@@ -82,31 +82,7 @@ canvas{
 
 	text-align: center;
 }
-#support{
-	font-size: 30px;
-	color:#fff;
-	background:#ff7f29;
-	padding: 10px;
-	width:320px;
-	border-radius: 10px;
-	margin: 10px auto;
-	cursor: pointer;
 
-	position: relative;
-	top: 0px;
-
-	text-decoration: none;
-	
-	-webkit-transition: all 0.1s ease-out;
-	-moz-transition: all 0.1s ease-out;
-	-ms-transition: all 0.1s ease-out;
-	transition: all 0.1s ease-out;
-
-}
-#support:hover{
-	background: #ffce87;
-	top: -3px;
-}
 input#your_message{
 	display: block;
 	width: 100%;
@@ -122,67 +98,6 @@ input#your_message{
 	font-weight: 100;
 
 	text-align: center;
-}
-input#your_link{
-	display: block;
-	width: 100%;
-	font-size: 15px;
-	padding: 5px;
-	background: #ddd;
-	border:none;
-	margin: 5px 0 40px 0;
-
-	color: #666;
-
-	font-family: Helvetica, Arial, sans-serif;
-	font-weight: 100;
-
-	text-align: center;
-}
-#share{
-	width:330px;
-	margin:5px auto;
-	height:50px;
-	margin-bottom: 30px;
-}
-#share > div{
-	float: left;
-	width: 50px; height: 50px;
-	margin-right: 5px;
-
-	opacity: 0.25;
-	position: relative;
-	top:0;
-	cursor: pointer;
-
-	-webkit-transition: all 0.1s ease-out;
-	-moz-transition: all 0.1s ease-out;
-	-ms-transition: all 0.1s ease-out;
-	transition: all 0.1s ease-out;
-
-}
-#share > div:hover{
-	opacity: 0.7;
-	top:-3px;
-}
-#share_facebook{
-	background: url(../icons/facebook.png);
-}
-#share_twitter{
-	background: url(../icons/twitter.png);
-}
-#share_plus{
-	background: url(../icons/plus.png);
-}
-#share_tumblr{
-	background: url(../icons/tumblr.png);
-}
-#share_reddit{
-	background: url(../icons/reddit.png);
-}
-#share_stumbleupon{
-	background: url(../icons/stumbleupon.png);
-	margin-right: 0px;
 }
 #bottom{
 	font-size: 17px;
