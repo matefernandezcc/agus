@@ -575,7 +575,7 @@ window.requestAnimFrame = window.requestAnimationFrame ||
 
 window.onload = function(){
 
-	addAsset("peep","assets/peep.png");
+	addAsset("peep","assets/peep_agus.png");
 	addAsset("key","assets/key.png");
 	addAsset("door","assets/door.png");
 	addAsset("clock","assets/clock.png");
