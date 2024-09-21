@@ -592,7 +592,7 @@ window.onload = function(){
 
 		window.setTimeout(function(){
 			document.getElementById("loading").style.display = "none";
-		},300);
+		}, 1300);
 
 		window.level = new Level(window.INTRO_LEVEL,true);
 
